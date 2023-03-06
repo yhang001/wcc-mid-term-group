@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+h1{
+  font-size: 230%;
+  font-family: "MyFont"; 
+  color:rgba(155, 68, 0);
+  margin-bottom: 10px;
+  
+}
+
+body{
+  background: white;
+}
+
+main{
+  width: 100%;
+}
+
+#sketch-container{
+  width: 100%;
+}
+.link{
+  display: inline-block; 
+  font-family: "MyFont";
+  margin-right: 100px; 
+  color:rgba(155, 68, 0);
+}
+@font-face {
+  font-family: MyFont; 
+  src: url(./HanChengWangShiLiXingShu.ttf);
+
+}
+

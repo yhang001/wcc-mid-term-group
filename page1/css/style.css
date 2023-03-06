@@ -1,0 +1,98 @@
+
+h2{
+  text-align:center;
+  font-size: 350%;
+  margin-bottom: 15px; 
+  font-family:"MyFont";
+}
+p{
+  font-size: 200%;
+  font-family: "MyFont"; 
+}
+
+.time {
+  display: flex; 
+  margin-left: 700px; 
+}
+.time p {
+  font-family: "MyFont";
+  font-size: 100%;
+  display: inline-block; 
+  margin-right: 10px; 
+}
+
+.line1 {
+  display: flex; 
+  margin-left: 560px; 
+}
+.line1 p {
+  display: inline-block; 
+  font-family: "MyFont";
+  margin-right: 10px; 
+}
+
+#jian {
+  display: flex; 
+  margin-left: 87px; 
+}
+/* change the color to represent different mood */
+#heng {
+  color: #7c1823;
+}
+#ku {
+  color: #5e616d;
+}
+
+/* translate the chinese charactor to english */
+.libie-card {
+  background-color: transparent; 
+  width: 100px;
+  margin-right: -90px; 
+  margin-left: -10px
+  /* height: 300px; */ 
+  /* perspective: 1000px; */
+}
+.libie-card-inner {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.libie-card:hover .libie-card-inner {
+  transform: rotateY(180deg);
+}
+.libie-front, .libie-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+} 
+.libie-front{
+  color:rgba(36, 72, 113);
+
+}
+.libie-back {
+  color:rgba(36, 72, 113);
+  font-size: 90%;
+  margin-bottom: -150px; 
+  transform: rotateY(180deg);
+}
+
+
+
+#rectangle{
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  /* align-items: center; */
+  width:1000px;
+  height:800px;
+  background:rgba(255, 255, 255, 0.674);
+}
