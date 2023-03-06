@@ -1,2 +1,2 @@
-# wcc-mid-term-group
+# wcc-mid-term
  
